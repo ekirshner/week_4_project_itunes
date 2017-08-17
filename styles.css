@@ -1,0 +1,73 @@
+body {
+  background-color: #60d9f1; 
+  background-image: url("http://cdn.wallpapersafari.com/96/9/3lEM4Z.jpg"); 
+  background-attachment: fixed;
+}
+
+h1{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: lightcyan;
+}
+
+/*styling for the audio section  */
+
+.player{
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+audio{
+  width: 50%;
+  border: 5px dotted pink;
+}
+
+audio:hover {
+  background-color: blue;
+}
+
+/*styling for the search section  */
+
+.search{
+  margin-bottom: 2%; 
+  border-top: 2px solid #202730;
+  padding-top: 2%;
+}
+
+/*styling for the results section  */
+
+.results{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1%;
+  border-top: 2px solid #202730;
+  justify-content: space-around;
+  
+}
+
+section.results div{
+  margin: 5px;
+  text-align: center;
+  width: 18%;
+  background-color: azure;
+  padding-top: 1%;
+  border: 2px dotted darkgray;
+}
+
+.albums{
+  opacity: .75;
+}
+
+.albums:hover {
+  opacity: 1;
+}
+
+h2{
+  font-size: 12px;
+}
+
+h3{
+  font-size: 10px;
+}
+
